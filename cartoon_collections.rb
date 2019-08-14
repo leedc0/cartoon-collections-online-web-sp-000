@@ -5,9 +5,7 @@ end
 
 def summon_captain_planet(planeteer_calls) # code an argument here
   # Your code here
-  # planeteer_calls.collect do |x|
-  #   puts "#{x}!".split.map(&:capitalize).join(' ')
-  # planeteer_calls.collect { |w| puts " #{w}!".split.map(&:capitalize)*' ' }
+
   planeteer_calls.collect { |w| w.capitalize + "!" }
 end
 
