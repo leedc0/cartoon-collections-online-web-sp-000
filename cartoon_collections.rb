@@ -16,6 +16,5 @@ end
 def find_the_cheese(words)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.each { |cheese| return cheese if cheese_types.include?(cheese) }
-  return nil
+  cheese_types.each { |cheese| return cheese if cheese_types.include?(cheese) : nil }
 end
